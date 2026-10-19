@@ -31,6 +31,7 @@ for r in repos:
             totals[lang] = totals.get(lang, 0) + size
 
 total_bytes = sum(totals.values()) or 1
+print(f"repos found: {len(repos)}, languages found: {len(totals)}")
 top = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:TOP_N]
 
 rows = ["| Language | Share | |", "|---|---|---|"]
