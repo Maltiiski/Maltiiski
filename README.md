@@ -3,9 +3,9 @@
 <!--LANGS_START-->
 | Language | Share | |
 |---|---|---|
-| Python | 33.3% | ███████ |
-| CSS | 25.1% | █████ |
-| HTML | 20.1% | ████ |
-| JavaScript | 18.9% | ████ |
+| Python | 34.6% | ███████ |
+| CSS | 24.6% | █████ |
+| HTML | 19.7% | ████ |
+| JavaScript | 18.5% | ████ |
 | C++ | 2.6% | █ |
 <!--LANGS_END-->
