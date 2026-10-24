@@ -1,4 +1,7 @@
-## 💻 Top Languages
+## Hello, world!
+Just some random, I like cool stuffs.
+
+## Top Languages
 
 <!--LANGS_START-->
 <picture>
