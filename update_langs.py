@@ -7,6 +7,14 @@ TOKEN = os.environ["GH_TOKEN"]
 EXCLUDE_LANGS = set()
 TOP_N = 6
 
+BAR_WIDTH = 50 
+PARTIALS = " ▏▎▍▌▋▊▉" 
+
+def make_bar(pct):
+    eighths = round(pct / 100 * BAR_WIDTH * 8)
+    full, part = divmod(eighths, 8)
+    return ("█" * full + PARTIALS[part]).strip() or "▏"
+
 def api(url):
     req = urllib.request.Request(url, headers={
         "Authorization": f"Bearer {TOKEN}",
@@ -37,7 +45,7 @@ top = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:TOP_N]
 rows = ["| Language | Share | |", "|---|---|---|"]
 for lang, size in top:
     pct = size / total_bytes * 100
-    bar = "█" * round(pct / 5) or "▏"
+    bar = make_bar(pct)
     rows.append(f"| {lang} | {pct:.1f}% | {bar} |")
 table = "\n".join(rows)
 
