@@ -4,21 +4,21 @@
 <text x="16" y="28.0" dy=".35em">Python</text>
 <rect x="140" y="22.0" width="250" height="12" rx="6.0" fill="#30363d"/>
 <rect x="140" y="22.0" width="250.0" height="12" rx="6.0" fill="url(#g)"/>
-<text x="404" y="28.0" dy=".35em" font-weight="600">38.4%</text>
+<text x="404" y="28.0" dy=".35em" font-weight="600">37.9%</text>
 <text x="16" y="60.0" dy=".35em">CSS</text>
 <rect x="140" y="54.0" width="250" height="12" rx="6.0" fill="#30363d"/>
 <rect x="140" y="54.0" width="150.2" height="12" rx="6.0" fill="url(#g)"/>
-<text x="404" y="60.0" dy=".35em" font-weight="600">23.1%</text>
+<text x="404" y="60.0" dy=".35em" font-weight="600">22.8%</text>
 <text x="16" y="92.0" dy=".35em">HTML</text>
 <rect x="140" y="86.0" width="250" height="12" rx="6.0" fill="#30363d"/>
 <rect x="140" y="86.0" width="119.7" height="12" rx="6.0" fill="url(#g)"/>
-<text x="404" y="92.0" dy=".35em" font-weight="600">18.4%</text>
+<text x="404" y="92.0" dy=".35em" font-weight="600">18.2%</text>
 <text x="16" y="124.0" dy=".35em">JavaScript</text>
 <rect x="140" y="118.0" width="250" height="12" rx="6.0" fill="#30363d"/>
 <rect x="140" y="118.0" width="116.5" height="12" rx="6.0" fill="url(#g)"/>
-<text x="404" y="124.0" dy=".35em" font-weight="600">17.9%</text>
+<text x="404" y="124.0" dy=".35em" font-weight="600">17.7%</text>
 <text x="16" y="156.0" dy=".35em">C++</text>
 <rect x="140" y="150.0" width="250" height="12" rx="6.0" fill="#30363d"/>
-<rect x="140" y="150.0" width="15.3" height="12" rx="6.0" fill="url(#g)"/>
-<text x="404" y="156.0" dy=".35em" font-weight="600">2.3%</text>
+<rect x="140" y="150.0" width="22.4" height="12" rx="6.0" fill="url(#g)"/>
+<text x="404" y="156.0" dy=".35em" font-weight="600">3.4%</text>
 </g></svg>
